@@ -1,0 +1,49 @@
+*, :after, :before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  background-color: #674DB6;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: white;
+  border-radius: 2rem;
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+button {
+  padding: .5rem;
+  width: 100%;
+  border: none;
+  background-color: #674DB6;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
